@@ -1,0 +1,11 @@
+cryptography
+pywin32; platform_system == "Windows"
+PyPDF2
+python-docx
+numpy==2.1.1
+psutil==6.0.0
+pycparser==2.22
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.2
+PyQt5_sip==12.15.0
+cffi==1.17.1
