@@ -1,10 +1,19 @@
-Это зашифрует все файлы из original_files и сохранит их в encrypted_files.
+# Перед использованием
+
+создать папки - `original_files`, `encrypted_files`, `decrypted_files`
+
+
+## Шифрование всех файлов из original_files в encrypted_files
+```bash
 python main.py encrypt original_files encrypted_files
+```
 
-
-Введите информацию о пользователе, и система сгенерирует лицензионный ключ.
+## Генерация лицензионного ключа
+```bash
 python main.py generate_license
+```
 
-
-Замените <license_key> на ваш лицензионный ключ, а <filename> — на имя файла из encrypted_files, который вы хотите просмотреть.
+## Просмотр файлв
+```bash
 python viewer.py <license_key> <filename>
+```
